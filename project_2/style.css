@@ -270,10 +270,22 @@ body{
     font-size: 15px;
 }
 
+.section-footer__social-container{
+    margin-top: -20px;
+}
+
 .section-footer__social-container a{
     color: black;
 }
 
 .section-footer__social-container a:hover{
     color: red;
+    text-decoration: none;
+    
 }
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before, [class^="flaticon-"]:after, [class*=" flaticon-"]:after {
+    font-family: Flaticon;
+    font-size: 40px;
+    font-style: normal;
+    margin-left: 20px;
