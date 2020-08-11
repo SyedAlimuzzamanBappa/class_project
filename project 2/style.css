@@ -1,0 +1,265 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* !Navbar */
+
+.navbar{
+    height: 50px;
+    background-color: #443344;
+}
+
+.navbar-brand{
+    font-family: 'Oleo Script Swash Caps', cursive;
+    font-size: 26px;
+    float: left;
+    height: 50px;
+    padding: 15px 15px;
+    line-height: 20px;
+    color: white;
+}
+
+.navbar-brand:hover{
+    color: red;
+}
+
+.navbar-nav{
+    float: right;
+    margin-left: 750px;
+    
+}
+
+
+.nav-link{
+    color: white;
+}
+
+.nav-link:hover{
+    color: white;
+    background-color: #665566; height: 100%;border-bottom: 1px solid red;
+}
+
+
+/* !Section hero */
+
+.section-hero{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgb(0,0,0,0.7)),
+    url(./images/background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    background-attachment: fixed;
+}
+
+.section-hero__text-container,h2{
+
+    color: white;
+    margin-top: 300px;
+}
+
+.section-hero__title-container h2{
+    font-size: 50px;
+    font-family: 'Oleo Script Swash Caps', cursive;
+}
+
+.align-items-center{
+    align-items: center !important;
+}
+
+.section-hero__button-container a{
+    margin-top: 50px;
+    color: white;
+    border:1px solid gray;
+    padding: 10px 30px;
+    border-radius: 20px;
+}
+
+.section-hero__button-container a:hover{
+    color:black;
+    text-decoration: none;
+    background-color: white;
+    transition: 0.3s;
+}
+
+
+/* ! Section Card  */
+
+.section-card h6{
+    margin-top: px;
+    font-size: 20px;
+    font-family: 'Oleo Script Swash Caps', cursive;
+}
+
+.font-weight-lighter{
+    font-size: 14px;
+}
+
+/* ! Photo Galley */
+
+.section-photo-gallery{
+    background-color: #FAF4FA;
+    margin-top: 30px;
+    padding: 50px;
+
+}
+
+.section-photo-gallery__title-container p{
+    margin-left: 500px;
+    font-size: 20px;
+    border-bottom: 1px solid red;
+    font-family: 'Oleo Script Swash Caps', cursive;
+}
+
+.section-photo-gallery__button-container a{
+    background-color: #EB233C;
+    font-size: 15px;
+    border:1px solid transparent;
+    color: white;
+    border-radius: 25px;
+    padding: 10px 30px;
+    margin-left: 500px;
+}
+
+.section-photo-gallery__button-container a:hover{
+    text-decoration: none;
+    color: white;
+}
+
+/* !Section Subscribe */
+
+.section-subscribe{
+    color: white;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgb(0,0,0,0.7)),
+    url(./images/background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.section-subscribe__title-container p{
+    display: inline;
+    border-bottom: 1px solid red;
+    font-family: 'Oleo Script Swash Caps', cursive;
+    font-size: 25px;
+    
+}
+
+.section-subscribe__subheading-container p{
+    font-size: 15px;
+    margin-bottom: 50px;
+}
+
+.section-subscribe__subscribe-button-container{
+    margin-top: 80px;
+}
+
+.section-subscribe__subscribe-button-container a{
+    background-color: #EB233C;
+    font-size: 15px;
+    color: white;
+    border-radius: 25px;
+    padding: 10px 30px;
+}
+
+.section-subscribe__subscribe-button-container a:hover{
+    font-size: 15px;
+    color: white;
+    border-radius: 25px;
+    padding: 10px 30px;
+    text-decoration: none;
+    
+}
+
+/* !Section About Us */
+
+.section-about-us__title-container p{
+    display: inline;
+    border-bottom: 1px solid red;
+    font-family: 'Oleo Script Swash Caps', cursive;
+    font-size: 25px; 
+    margin-left: 500px;
+}
+
+#ourclient{
+    float: left;
+}
+
+#project__status{
+    float: right;
+}
+
+/* ! Section contact us */
+
+.section-contact-us{
+    background-color: #F7F7F7;
+}
+
+.section-contact-us__title-container p{
+    display: inline;
+    border-bottom: 1px solid red;
+    font-family: 'Oleo Script Swash Caps', cursive;
+    font-size: 25px;
+}
+
+.section-input__first-name{
+    border: none;
+    border-bottom: 1px solid red;
+    width: 49%;
+    background-color: #F7F7F7;
+}
+
+.section-input__text-area{
+    border: none;
+    border-bottom: 1px solid black;
+    width: 100%;
+    height: 200px;
+    background-color: #F7F7F7;
+}
+
+.section-contact-us__button-container a{
+    background-color: #EB233C;
+    font-size: 15px;
+    color: white;
+    border-radius: 25px;
+    padding: 10px 30px;
+}
+.section-contact-us__button-container a:hover{
+    font-size: 15px;
+    color: white;
+    border-radius: 25px;
+    padding: 20px 30px;
+    text-decoration: none;
+}
+
+.section-contact-us__title-heading-container{
+    font-family: 'Oleo Script Swash Caps', cursive;
+    font-size: 20px;
+    color: red;
+}
+
+.section-contact-container p{
+    margin-bottom: -60px;
+}
+
+/* !Section Footer */
+
+.section-footer{
+    font-size: 15px;
+}
+
+.section-footer__social-container a{
+    color: black;
+}
+
+.section-footer__social-container a:hover{
+    color: red;
+}
