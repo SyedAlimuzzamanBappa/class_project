@@ -92,7 +92,6 @@ body{
 /* ! Section Card  */
 
 .section-card h6{
-    margin-top: px;
     font-size: 20px;
     font-family: 'Oleo Script Swash Caps', cursive;
 }
@@ -100,6 +99,22 @@ body{
 .font-weight-lighter{
     font-size: 14px;
 }
+
+
+element.style {
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+user agent stylesheet
+i {
+    font-style: italic;
+}
+
 
 /* ! Photo Galley */
 
