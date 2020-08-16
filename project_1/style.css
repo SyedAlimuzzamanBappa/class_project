@@ -1,0 +1,123 @@
+/* BODY */
+
+body {
+    font-size: 2rem;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+/* Section Header */
+
+.section-header {}
+
+.icon-container {
+    padding: 10px;
+    text-align: center;
+}
+
+.icon-container i {
+    font-size: 20px;
+    margin-right: 20px;
+    text-align: center;
+}
+
+.icon-container a:hover {
+    border-bottom: 1px solid yellow;
+}
+
+
+/* Section Navbar */
+
+.section-navbar {}
+
+.nav {}
+
+.nav-item {
+    margin: 5px;
+    padding: 5px;
+}
+
+.nav-item :active {
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.nav-item a {
+    color: white;
+}
+
+.nav-item a:hover {
+    color: black;
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 10px;
+}
+
+
+/* Section Hero */
+
+.section-hero {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./assets/images/slider-background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    background-attachment: fixed;
+    ba
+}
+
+.section-header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./assets/images/slider-background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    ba
+}
+
+.section-navbar {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./assets/images/slider-background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    ba
+}
+
+
+/* Section Hero */
+
+.section-hero__text-container {}
+
+
+/* Section About-me */
+
+.text-size p {
+    font-size: 21px;
+}
+
+.button-info {}
+
+.button-info a {
+    text-align: center;
+    color: white;
+    background-color: black;
+    padding: 10px 30px;
+    border-radius: 25px;
+}
+
+.button-info a:hover {
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+    padding: 10px 30px;
+    border-radius: 25px;
+    text-decoration: none;
+}
+
+
+/* Section Skill */
+
+.section-skills {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./assets/images/skill-background.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
